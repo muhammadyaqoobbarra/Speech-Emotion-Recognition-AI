@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Model weights (use Git LFS or DVC for large files)
+backend/models/weights/*.pth
+backend/models/weights/*.pt
+
+# Data
+data/
+*.npy
+
+# Generated
+backend/static/
+evaluation_results/
+
+# Env files
+.env
+*.env.local
+
+# Node
+node_modules/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
+logs/
